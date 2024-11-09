@@ -55,7 +55,7 @@ Windows :
 Place your PDF, DOCX, and ODT files in the `in` folder and run run.bat
 
 macOS / Linux :
-Place your PDF, DOCX, and ODT files in the `in` folder and open a terminal. Navigate to the directory containing `run.sh`, <span title="make it executable">type chmod +x run.sh.</span> if it is not already, and then execute it:
+Place your PDF, DOCX, and ODT files in the `in` folder and open a terminal. Navigate to the directory containing `run.sh`, <span title="type chmod +x run.sh.">make it executable</span> if it is not already, and then execute it:
 
 ```sh
 chmod +x run.sh
