@@ -1,3 +1,8 @@
+# Filename : main.py
+# Author : ratu
+# Date : 2020-09-20
+# Description : This script converts PDF files to text files using the PyPDF2 library in Python.
+
 import os
 import PyPDF2
 
