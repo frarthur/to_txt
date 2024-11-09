@@ -5,16 +5,11 @@ This project converts PDF files to text files using Python. It processes all PDF
 ## Prerequisites
 
 - Python 3.x
-- [PyPDF2](https://pypi.org/project/PyPDF2/)
+- The required libraries will be installed automatically when the script is executed.
 
 ## Installation
 
 1. Clone the repository or [download](https://codeload.github.com/frarthur/to_txt/zip/refs/heads/main) the source code.
-2. Install the required dependencies using pip:
-
-    ```sh
-    pip install PyPDF2
-    ```
 
 ## Usage
 
