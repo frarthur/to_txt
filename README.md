@@ -9,7 +9,7 @@ This project converts PDF files to text files using Python. It processes all PDF
 
 ## Installation
 
-1. Clone the repository or download the source code.
+1. Clone the repository or [download](https://codeload.github.com/frarthur/to_txt/zip/refs/heads/main) the source code.
 2. Install the required dependencies using pip:
 
     ```sh
