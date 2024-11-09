@@ -59,4 +59,8 @@ Place your PDF, DOCX, and ODT files in the `in` folder and open a terminal. Navi
 
 ```sh
 chmod +x run.sh
+<<<<<<< HEAD
 run.sh
+=======
+run.sh
+>>>>>>> 4bb6a6604d754273dc9440841e549d05a9550fe0
