@@ -1,6 +1,6 @@
-# PDF to Text Converter
+# File to Text Converter
 
-This project converts PDF files to text files using Python. It processes all PDF files in a specified input folder and saves the extracted text to a specified output folder.
+This project converts PDF, DOCX, ODT, and Excel files (both `.xlsx` and `.ods` formats) to text files using Python. It processes all files in a specified input folder and saves the extracted text to a specified output folder.
 
 ## Prerequisites
 
@@ -13,11 +13,16 @@ This project converts PDF files to text files using Python. It processes all PDF
 
 ## Usage
 
-1. Place the PDF files you want to convert in the `in` folder.
-2. Run the `main.py` script:
+1. Place the files you want to convert in the `in` folder.
+Windows :
+2. Run the run.bat script:
+
+macOS / Linux :
+2. Run the `run.sh` script:
 
     ```sh
-    python main.py
+    chmod +x run.sh
+    run.sh
     ```
 
 3. The extracted text files will be saved in the `out` folder.
@@ -37,25 +42,30 @@ Converts a single PDF file to a text file.
 - `pdf_file_path`: Path to the PDF file.
 - `txt_file_path`: Path to save the extracted text file.
 
-### `process_pdfs(in_folder, out_folder)`
+### `docx_to_txt(docx_file_path, txt_file_path)`
 
-Processes all PDF files in the input folder and converts them to text files in the output folder.
+Converts a single DOCX file to a text file.
 
-- `in_folder`: Path to the input folder containing PDF files.
+- `docx_file_path`: Path to the DOCX file.
+- `txt_file_path`: Path to save the extracted text file.
+
+### `odt_to_txt(odt_file_path, txt_file_path)`
+
+Converts a single ODT file to a text file.
+
+- `odt_file_path`: Path to the ODT file.
+- `txt_file_path`: Path to save the extracted text file.
+
+### `excel_to_txt(excel_file_path, txt_file_path)`
+
+Converts a single Excel file (both `.xlsx` and `.ods` formats) to a text file.
+
+- `excel_file_path`: Path to the Excel file.
+- `txt_file_path`: Path to save the extracted text file.
+
+### `process_files(in_folder, out_folder)`
+
+Processes all PDF, DOCX, ODT, and Excel files in the input folder and converts them to text files in the output folder.
+
+- `in_folder`: Path to the input folder containing files.
 - `out_folder`: Path to the output folder to save the text files.
-
-## Example
-
-Windows :
-Place your PDF, DOCX, and ODT files in the `in` folder and run run.bat
-
-macOS / Linux :
-Place your PDF, DOCX, and ODT files in the `in` folder and open a terminal. Navigate to the directory containing `run.sh`, <span title="type chmod +x run.sh.">make it executable</span> if it is not already, and then execute it:
-
-```sh
-chmod +x run.sh
-<<<<<<< HEAD
-run.sh
-=======
-run.sh
->>>>>>> 4bb6a6604d754273dc9440841e549d05a9550fe0
