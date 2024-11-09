@@ -52,11 +52,11 @@ Processes all PDF files in the input folder and converts them to text files in t
 ## Example
 
 Windows :
-Place your PDF files in the `in` folder and execute run.bat
+Place your PDF, DOCX, and ODT files in the `in` folder and run run.bat
 
 macOS / Linux :
-Place your PDF files in the `in` folder and open a terminal. Navigate to the directory containing `run.sh`, make it executable if it is not already, and then execute it:
+Place your PDF, DOCX, and ODT files in the `in` folder and open a terminal. Navigate to the directory containing `run.sh`, <span title="make it executable">type chmod +x run.sh.</span> if it is not already, and then execute it:
 
 ```sh
-chmod +x [run.sh](http://_vscodecontentref_/0)
-[run.sh](http://_vscodecontentref_/1)
+chmod +x run.sh
+run.sh
